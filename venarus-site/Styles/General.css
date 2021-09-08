@@ -1,0 +1,122 @@
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+section {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.title {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 26px;
+  max-width: 263px;
+}
+
+.description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 154.8%;
+  color: #777777;
+  max-width: 263px;
+  max-height: 100px;
+}
+
+.description-different {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 154.8%;
+  color: #FFFFFF;
+  max-width: 263px;
+  max-height: 100px;
+}
+
+.vector-purple-image {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  max-height: 100%;
+}
+
+@media (max-width: 1024px) {
+
+  .description-different {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .description-different {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 425px) {
+
+  .title {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+}
+
+@media (max-width: 375px) {
+
+  .title {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+}
+
+@media (max-width: 320px) {
+
+  .title {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+}

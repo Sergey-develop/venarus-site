@@ -1,0 +1,162 @@
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 150px 58px;
+}
+
+.nav-menu-actions {
+    display: flex;
+}
+
+.nav-menu-find {
+    padding: 0 20px;
+}
+
+.nav-menu-maker {
+    padding: 0 20px;
+}
+
+.nav-menu-button {
+    padding: 0 20px;
+}
+
+@media (max-width: 425px) {
+
+    .nav-menu-logo  svg  {
+        height: 20px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 15px;
+    }
+
+    .nav-menu-find {
+        padding: 0 ;
+    }
+
+    .nav-menu-maker {
+        padding: 0 ;
+    }
+
+    .nav-menu-button {
+        padding: 0 ;
+
+    }
+
+    .nav-menu-find svg {
+        padding: 0 ;
+        width: 32px;
+        height: 20px;
+    }
+
+    .nav-menu-maker svg {
+        padding: 0 ;
+
+        width: 32px;
+        height: 20px;
+    }
+
+    .nav-menu-button svg{
+
+        width: 32px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .nav-menu-logo  svg  {
+        height: 20px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 15px;
+    }
+
+    .nav-menu-find {
+        padding: 0 ;
+    }
+
+    .nav-menu-maker {
+        padding: 0 ;
+    }
+
+    .nav-menu-button {
+        padding: 0 ;
+
+    }
+
+    .nav-menu-find svg {
+        padding: 0 ;
+        width: 32px;
+        height: 20px;
+    }
+
+    .nav-menu-maker svg {
+        padding: 0 ;
+
+        width: 32px;
+        height: 20px;
+    }
+
+    .nav-menu-button svg{
+
+        width: 32px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .nav-menu-logo  svg  {
+        height: 20px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 15px;
+    }
+
+    .nav-menu-find {
+        padding: 0 ;
+    }
+
+    .nav-menu-maker {
+        padding: 0 ;
+    }
+
+    .nav-menu-button {
+        padding: 0 ;
+
+    }
+
+    .nav-menu-find svg {
+        padding: 0 ;
+        width: 32px;
+        height: 20px;
+    }
+
+    .nav-menu-maker svg {
+        padding: 0 ;
+
+        width: 32px;
+        height: 20px;
+    }
+
+    .nav-menu-button svg{
+
+        width: 32px;
+        height: 20px;
+    }
+}

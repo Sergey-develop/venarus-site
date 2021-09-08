@@ -1,0 +1,73 @@
+.opinion-of-experts {
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 150px 150px;
+    max-width: 100%;
+
+}
+
+.opinion-of-experts-inner {
+    display: grid;
+    grid-template-columns: 277px 75%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+
+.img-item {
+    max-width: 847px;
+    max-height: 570px;
+}
+
+@media (max-width: 1024px) {
+
+    .opinion-of-experts-inner {
+        display: block;
+    }
+
+    .opinion-of-experts {
+        display: block;
+        margin: 0 150px;
+        width: 75%;
+    }
+
+    .img-item {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .opinion-of-experts {
+        margin: 15px;
+    }
+
+    .img-item {
+        max-width: 85%;
+        max-height: 570px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .opinion-of-experts {
+        margin: 15px;
+    }
+
+    .img-item {
+        max-width: 85%;
+        max-height: 570px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .opinion-of-experts {
+        margin: 15px;
+    }
+
+    .img-item {
+        max-width: 85%;
+        max-height: 570px;
+    }
+
+}
